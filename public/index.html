@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Student Grade Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>Student Grade Tracker</h1>
+
+    <input type="hidden" id="studentId">
+
+    <input type="text" id="name" placeholder="Student Name">
+
+    <input type="number" id="rollNo" placeholder="Roll Number">
+
+    <input type="number" id="math" placeholder="Math Marks">
+
+    <input type="number" id="science" placeholder="Science Marks">
+
+    <input type="number" id="english" placeholder="English Marks">
+
+    <button onclick="saveStudent()">Save Student</button>
+
+    <div id="studentList"></div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
